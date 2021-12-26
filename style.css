@@ -298,6 +298,7 @@ animation-name: slideInRight;
 }
 .boxarea{
   padding: 20px 0;
+  background-color: white;
 }
 .box1{
   
@@ -358,6 +359,7 @@ animation-name: slideInRight;
 }
 .darea{
   padding: 60px 0;
+  background-color: white;
 }
 .darea p{
   font-size: 20px;
@@ -379,28 +381,115 @@ animation-name: slideInRight;
   height: auto;
 }
 .btn{
-  
+  margin: 20px 0;
   background: orangered !important;
 }
 .footer1{
   padding: 20px 0;
+  background-color: white;
 }
 .boxex img{
   width:100%;
   height: auto;
 }
-.footer2{
-  padding: 30px 0;
+
+
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #f1f4fa;
 }
-.address{
-  width: 100%;
-  /* padding: 20px 0; */
-  background: turquoise;
-  margin: 5px;
+.wrap {
+  display: flex;
+  background: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
 }
-.mobile{
-  width: 100%;
-  /* padding: 20px 0; */
-  background: turquoise;
-  margin: 5px;
+
+.wrap:hover {
+  background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+  color: white;
 }
+
+.ico-wrap {
+  margin: auto;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: #313131;
+  margin: 1rem;
+  padding-right: 1rem;
+}
+.vcenter {
+  margin: auto;
+}
+
+.mbr-section-title3 {
+  text-align: left;
+}
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.display-5 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1.4rem;
+}
+.mbr-bold {
+  font-weight: 700;
+}
+
+.footer2 p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+}
+.display-6 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1re}
+
+  .footerarea{
+    /* padding: 5px 0; */
+    background: url('img/footer1.webp');
+    background-size: cover;
+  }
+  .footerarea h4{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .footerarea p{
+    color: white;
+    padding:20px 20px 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .tarea{
+    background: rgba(0,0,0,0.9);
+  }
+  .foot h5{
+    color: white;
+    font-size: 25px;
+    padding: 15px 0;
+  }
+  .foot ul li{
+    list-style: none;
+  }
+  .foot ul li a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  .foot ul li a:hover{
+   
+    color: violet;
+  }
+  .foot ul li a i{
+    margin-right: 10px;
+    
+  }
